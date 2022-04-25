@@ -2254,7 +2254,7 @@ return false
 end 
 redis:del(bot_id.."NightRang:Change:Description" .. msg.chat_id_ .. "" .. msg.sender_user_id_)   
 https.request("https://api.telegram.org/bot"..token.."/setChatDescription?chat_id="..msg.chat_id_.."&description="..text) 
-send(msg.chat_id_, msg.id_,"• تم تغيير وصف المجموعه")   
+send(msg.chat_id_, msg.id_,"• تم تغيير وصف المجموعه")   ن
 return false  
 end 
 --------------------------------------------------------------------------------------------------------------
